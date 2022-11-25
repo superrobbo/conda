@@ -1,7 +1,9 @@
 name: example-environment
+name: python 3.10
 channels:
   - conda-forge
 dependencies:
+  - python=3.10 
   - numpy
   - psutil
   - toolz
